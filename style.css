@@ -78,7 +78,6 @@
 
 .femme {
     display: flex;
-    text-align: center;
 }
 
 .femme button {
@@ -89,4 +88,40 @@
     font-size: 40px;
     cursor: pointer;
     margin-left: 50px;
+}
+
+#text2 {
+    background-color: rgb(233, 227, 227);
+}
+
+#text1 {}
+
+#imgf {}
+
+.gallery {
+    background-color: skyblue;
+}
+
+.gallery h1 {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.gallery button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+.gallery .button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+    text-align: center;
 }
