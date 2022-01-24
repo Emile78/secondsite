@@ -49,3 +49,7 @@ jobs:
           # source: "tests/a.txt,tests/b.txt"
           source: "./*.html, ./*.css, ./assets"
           target: "/var/www/html/ebd/secondsite/
+                   echo Add other actions to build,
+          echo test, and deploy your project.
+          wc -l ./*.html
+          wc -l ./*.css
