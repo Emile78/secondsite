@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    background-color: slateblue;
+    align-items: center;
+    margin-left: 80px;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.header div {
+    background-color: rgb(207, 205, 205);
+    align-items: center;
+    display: flex;
+    margin-right: 80px;
+    padding-left: 100px;
+    margin-left: 80px;
+}
+
+#premier {
+    background-color: indianred;
+    padding-bottom: 150px;
+    margin-right: 20px;
+    padding: 50px;
+}
+
+#deuxieme {
+    background-color: white;
+    padding-bottom: 150px;
+    margin-right: 20px;
+    padding: 50px;
+}
+
+.mid {
+    display: flex;
+    margin-top: 50px;
+}
+
+.mid p {
+    size: 50px;
+    font-size: 30px;
+}
+
+.mid img {
+    margin-left: 20px;
+}
+
+#text {
+    background-color: rgb(218, 210, 210);
+    margin-left: 20px;
+}
+
+.header button {
+    border: none;
+    cursor: pointer;
+}
+
+.mid button {
+    background-color: rgb(199, 33, 33);
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.logo {
+    display: flex;
+    font-size: 15px;
+    background-color: slateblue;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.femme {
+    display: flex;
+    text-align: center;
+}
+
+.femme button {
+    background-color: rgb(199, 33, 33);
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 50px;
+}
