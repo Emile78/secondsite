@@ -10,15 +10,35 @@
 </head>
 
 <body>
-    <div class="header">
-        <h1>COMPARTO</h1>
-        <div>
-            <button id="premier">.01 About</button>
-            <button id="deuxieme">.02 Services</button>
-            <button id="deuxieme">.03 Gallery</button>
-            <button id="deuxieme">.04 Contact</button>
+    <nav class="premiereclass">
+
+        <div class="comparto">
+            <p>comparto</p>
         </div>
-    </div>
+
+        <div class="sousdiv">
+            <div class="elements1">
+                <p>.01</p>
+                <br>
+                <p>about</p>
+            </div>
+            <div class="elements2">
+                <p>.02</p>
+                <br>
+                <p>servises</p>
+            </div>
+            <div class="elements3">
+                <P>.03</P>
+                <br>
+                <p>gallery</p>
+            </div>
+            <div class="elements4">
+                <p>.04</p>
+                <br>
+                <p>contact</p>
+            </div>
+        </div>
+    </nav>
 
     <div class="mid">
         <img src="image/eglise.jpg" alt="eglise" />
@@ -39,7 +59,7 @@
                 varius. Fusce pulvinar dolor
                 <button>More detail</button>
             </p>
-            
+
         </div>
     </div>
     <div class="logo">
@@ -102,19 +122,36 @@
         <img src="image/femme2.jpg" alt="">
     </div>
 
-    <div  class="contact">  
+    <div class="contact">
         <h1>.04 Contact Us</h1>
-        <img src="image/localisation.png" alt="">
-        <img src="image/info.png" alt="">
-        <img src="image/text.png" alt="">
+        <div class="zonedetext">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.76457410639!2d2.2769947569434734!3d48.85894658150091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1643193826513!5m2!1sfr!2sfr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <form method="post" action="traitement.php">
+                <p>Username:</p>
+                <input type="text" name="pseudo" />
+                <p>Email:</p>
+                <label for="email"></label>
+                <input type="email" id="email" pattern=".+@globex\.com" size="30" required>
+                <p>Message</p>
+                <textarea name="Name" id="" cols="30" rows=""></textarea>
+            </form>
+            <div id="tout">
+                <p>Pellentesque egestas odio sed tellus dictum, vel lobortis ante vehicula.</p>
+                <p>Morbi eget accumsan libero, non tincidunt felis.</p>
+                <p>Tel: 010-020-0990 <br>Email: info@compagny.com </p>
+            </div>
+        </div>
+
     </div>
 
     <footer>
-        
-            <li><a href="https://www.facebook.com/"> <img src="image/facebook.png" alt=""></a></li>
-            <li><a href="https://www.instagram.com/"> <img src="image/insta.png" alt="logo facebook"></a></li>
-            <li><a href="https://twitter.com/?lang=fr"> <img src="image/twitter.png" alt="logo twitter"></a></li>
-            <li><a href="https://youtube.com/?lang=fr"> <img src="image/youtube.png" alt="logo twitter"></a></li>
+
+        <li><a href="https://www.facebook.com/"> <img src="image/facebook.png" alt=""></a></li>
+        <li><a href="https://www.instagram.com/"> <img src="image/insta.png" alt="logo facebook"></a></li>
+        <li><a href="https://twitter.com/?lang=fr"> <img src="image/twitter.png" alt="logo twitter"></a></li>
+        <li><a href="https://youtube.com/?lang=fr"> <img src="image/youtube.png" alt="logo twitter"></a></li>
     </footer>
     <h3>copyright 2020 Comparto Studio - Design: TemplateMo</h3>
 

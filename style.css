@@ -2,27 +2,69 @@ body{
     margin: 10% ;
 }
 
-.header {
+nav{
     display: flex;
-    justify-content: space-between;
+    margin: 30px;
 }
 
-.header h1 {
-    background-color: slateblue;
-    align-items: center;
-    margin-left: 80px;
-    padding: 50px;
-    margin-left: 50px;
+.premierclass{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
-.header div {
-    background-color: rgb(207, 205, 205);
-    align-items: center;
-    display: flex;
-    margin-right: 80px;
-    padding-left: 100px;
-    margin-left: 80px;
+.comparto{
+    margin-right: 20px;
+    font-size: 45px;
+    color: white;
+    background-color: rgb(100, 100, 240);
+    text-align: center;
+    width: 25%
+
 }
+
+.sousdiv{
+
+    display: flex;
+    justify-content: end;
+    background-color: rgb(231, 222, 231);
+    width: 75%;
+}
+
+.elements1{
+    background-color: rgb(252, 157, 141);
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    margin-top: 20px;
+
+    text-align: center;
+    width: 125px;
+}
+
+.elements2{
+    background-color: white;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 125px;
+}
+
+.elements3{
+    background-color: white;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 125px;
+}
+
+.elements4{
+    background-color: white;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 125px;
+} 
+
 
 #premier {
     background-color: indianred;
@@ -189,4 +231,32 @@ footer img{
 }
 h3{
     text-align: center;
+}
+
+
+.contact iframe{
+    width: 250px;
+    height: 250px;
+    display: flex;
+}
+
+.contact .zonedetext{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact textarea{
+    height: 20px;
+}
+
+.contact form{
+    margin-left: 170px;
+    background-color: rgb(179, 177, 177);
+    margin-right: 100px;
+}
+
+#tout{
+    background-color: rgb(179, 177, 177);
+    width: 250px;
+    margin-left: 20px;
 }
